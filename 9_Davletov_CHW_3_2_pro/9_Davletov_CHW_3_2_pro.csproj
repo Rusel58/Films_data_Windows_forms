@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>_9_Davletov_CHW_3_2_pro</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AutoSaverEvent\AutoSaverEvent.csproj" />
+    <ProjectReference Include="..\CustomException\CustomException.csproj" />
+    <ProjectReference Include="..\DataProcessing\DataProcessing.csproj" />
+    <ProjectReference Include="..\EarningsEvent\EarningsEvent.csproj" />
+    <ProjectReference Include="..\InOut\InOut.csproj" />
+    <ProjectReference Include="..\IOController\IOController.csproj" />
+    <ProjectReference Include="..\JSONObject\JSONObject.csproj" />
+    <ProjectReference Include="..\JSONProcessing\JSONProcessing.csproj" />
+  </ItemGroup>
+
+</Project>
